@@ -24,7 +24,7 @@ source("apikey.R")
 
 base.uri <- "https://api.nytimes.com/svc/movies/v2/"
 resource <- "reviews/search.json"
-query.params <- list("api-key" = nyt.api, query = movie.name)
+query.params <- list("api-key" = nyt.apikey, query = movie.name)
 
 
 
